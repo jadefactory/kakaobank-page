@@ -44,7 +44,7 @@
 		<section class="content-inner">
 			<article>
 				<div class="heading">
-					<h1>IT 기술로 <b>카카오뱅크</b>를 만들어갑니다.</h1>
+					<h1>IT 기술로 <b>카카오뱅크</b>를 만들어갑니다</h1>
 				</div>
 				<div class="content">
 					<div class="accordian">
@@ -68,18 +68,33 @@
 							친구들과 함께 잔액과 입출금 현황을 확인할 수 있습니다.<br />
 							재미있는 메시지 카드로 회비 입금 요청도 해보세요.
 						</div>
+						<div class="title">
+							해외계좌송금과 WU빠른해외송금을 더 쉽고, 저렴하게
+						</div>
+						<div class="desc">
+							해외계좌성곰이 가능한 22개국을 포함하여<br />
+							전세계 200여개국으로<br />
+							WU빠른해외송금이 가능합니다.
+						</div>
 					</div>
-					<div class="image"></div>
+					<div class="app-ui">
+						<div class="image-container">
+							<img src="images/mobile-4.png" alt="" />
+							<img src="images/mobile-3.png" alt="" />
+							<img src="images/mobile-2.png" alt="" />
+							<img src="images/mobile-1.png" alt="" />
+						</div>
+					</div>
 				</div>
 			</article>
 		</section>
 
 		<script>
-			$(".title").click(function () {
-				$(this).siblings().removeClass("active");
-				$(this).addClass("active");
-				$(this).next().addClass("active");
-				$(this).siblings(".desc").stop.slideUp();
+			$('.title').click(function () {
+				$(this).siblings().removeClass('active');
+				$(this).addClass('active');
+				$(this).next().addClass('active');
+				$(this).siblings('.desc').stop.slideUp();
 			});
 		</script>
 	</body>
